@@ -11,9 +11,9 @@
     <title>PlatziConf Hawaii!</title>
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="57">
- <!--  Header -->
- <header>
-     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+   <!--  Header -->
+   <header>
+       <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
               <img src="assets/images/platzi-logo.png" alt="platzi logo"> Conf Hawaii
@@ -183,9 +183,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-6 pl-0 pr-0">
-             <img src="assets/images/honolulu.jpg" alt="honolulu">
-         </div>
-         <div class="col-12 col-lg-6 pt-4 pb-4">
+               <img src="assets/images/honolulu.jpg" alt="honolulu">
+           </div>
+           <div class="col-12 col-lg-6 pt-4 pb-4">
             <h2>Honolulu - Octubre 2025</h2>
             <p>Honolulu es la capital y localidad más grande del estado de Hawái, en los Estados Unidos.nota 1​ Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).</p>
             <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Honolulu">Conoce mas</a>
@@ -199,44 +199,44 @@
 
 <!-- Convierteté en Orador -->
 <section id="conviertete-en-orador" class="pt-4 pb-4">
- <div class="contaner">
-     <div class="row">
-         <div class="col text-uppercase text-center">
-             <small>Conviertete en un</small>
-             <h2>orador</h2>
-         </div>
-     </div>
-     <div class="col text-center">
-         Anotate como orador par dar una charla <abbr data-toggle="tooltip" title="Charlas de 5 mint">ignite</abbr>
-         Cuentanos de que quieres hablar!
-     </div>
-     <div class="row">
-         <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
-             <form>
+   <div class="contaner">
+       <div class="row">
+           <div class="col text-uppercase text-center">
+               <small>Conviertete en un</small>
+               <h2>orador</h2>
+           </div>
+       </div>
+       <div class="col text-center">
+           Anotate como orador par dar una charla <abbr data-toggle="tooltip" title="Charlas de 5 mint">ignite</abbr>
+           Cuentanos de que quieres hablar!
+       </div>
+       <div class="row">
+           <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+               <form>
+                  <div class="form-row">
+                    <div class="form-group col-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="Nombre">
+                  </div>
+                  <div class="form-group col-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="Apellido">
+                  </div>
+              </div>
               <div class="form-row">
-                <div class="form-group col-12 col-md-6">
-                  <input type="text" class="form-control" placeholder="Nombre">
+                  <div class="form-group col">
+                      <textarea name="text" class="form-control form-control-lg" placeholder="Sobre que quieres hablar?"></textarea>
+                      <small class="form-text form-text-muted">
+                          Recuerda incluir un titulo para tu charla!
+                      </small>
+                  </div>
               </div>
-              <div class="form-group col-12 col-md-6">
-                  <input type="text" class="form-control" placeholder="Apellido">
+              <div class="form-row">
+                  <div class="col">
+                      <button type="button" class="btn btn-platzi btn-block">Enviar</button>
+                  </div>
               </div>
-          </div>
-          <div class="form-row">
-              <div class="form-group col">
-                  <textarea name="text" class="form-control form-control-lg" placeholder="Sobre que quieres hablar?"></textarea>
-                  <small class="form-text form-text-muted">
-                      Recuerda incluir un titulo para tu charla!
-                  </small>
-              </div>
-          </div>
-          <div class="form-row">
-              <div class="col">
-                  <button type="button" class="btn btn-platzi btn-block">Enviar</button>
-              </div>
-          </div>
-      </form>
+          </form>
+      </div>
   </div>
-</div>
 </div> 
 </section>
 
@@ -276,20 +276,34 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">Comprar tickets</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
+      </button>
   </div>
+  <div class="modal-body">
+    <form>
+        <div class="form-row">
+            <div class="form-group col">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+        </div>
+    </div>
+</form>
+<div class="alert alert-warning" role="alert">
+  Recibiras un correo de confirmacion si sales sorteado!
+</div>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+    <button type="button" class="btn btn-platzi">Comprar</button>
+</div>
+</div>
+</div>
 </div>
 
 <!-- /Modal  -->
